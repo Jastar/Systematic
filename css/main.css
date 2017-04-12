@@ -1,0 +1,360 @@
+h1 {
+  font-size: 86px;
+  line-height: 103px;
+  font-family: "GeorgiaRegular";
+  color: #000000; }
+
+h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "GeorgiaRegular";
+  color: #000; }
+
+h3 {
+  font-size: 26px;
+  line-height: 31px;
+  font-family: "GeorgiaRegular";
+  color: #333333; }
+
+h4 {
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "GeorgiaRegular";
+  color: #989898; }
+
+h5 {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "GeorgiaRegular";
+  color: #878787; }
+
+body {
+  font-size: 12px;
+  line-height: 19.2px;
+  font-family: "GeorgiaRegular";
+  color: #888; }
+
+a:active, a:focus, a:hover {
+  text-decoration: none; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+input[type="text"], input[type="email"], input[type="search"], textarea {
+  border: none;
+  outline: none; }
+  input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease;
+            transition: opacity 0.3s ease; }
+  input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, input[type="search"]::-moz-placeholder, textarea::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease; }
+  input[type="text"]:-moz-placeholder, input[type="email"]:-moz-placeholder, input[type="search"]:-moz-placeholder, textarea:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease; }
+  input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease; }
+  input[type="text"]:focus::-webkit-input-placeholder, input[type="email"]:focus::-webkit-input-placeholder, input[type="search"]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+            transition: opacity 0.3s ease; }
+  input[type="text"]:focus::-moz-placeholder, input[type="email"]:focus::-moz-placeholder, input[type="search"]:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease; }
+  input[type="text"]:focus:-moz-placeholder, input[type="email"]:focus:-moz-placeholder, input[type="search"]:focus:-moz-placeholder, textarea:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease; }
+  input[type="text"]:focus:-ms-input-placeholder, input[type="email"]:focus:-ms-input-placeholder, input[type="search"]:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease; }
+
+input[type="submit"], button[type="submit"] {
+  border: none;
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+/********************************************************** TOPBAR **********************************************************/
+section#topBar {
+  background-color: #ba2e1f; }
+  section#topBar ul#menu {
+    padding: 0px;
+    margin: 20px auto; }
+  section#topBar ul#menu li {
+    display: inline;
+    color: #fff; }
+    section#topBar ul#menu li a {
+      font-size: 12px;
+      line-height: 14.4px;
+      font-family: "GeorgiaRegular";
+      color: #fff;
+      opacity: 1;
+      -webkit-transition: opacity 0.5s;
+      transition: opacity 0.5s; }
+      section#topBar ul#menu li a:hover {
+        opacity: 0.7; }
+  section#topBar div.searching {
+    border: none;
+    max-height: 30px;
+    margin: 15px 0 15px auto;
+    background-color: #fff;
+    border-radius: 45px; }
+    section#topBar div.searching input[type="search"] {
+      max-height: 28px;
+      height: 35px;
+      border-radius: 45px 0px 0px 45px; }
+    section#topBar div.searching button[type="submit"] {
+      background-color: #ba2e1f;
+      padding: 2px;
+      width: 24px;
+      height: 24px;
+      margin: 1px 5px 0px 0px;
+      border-radius: 15px;
+      font-size: 14px;
+      color: #fff;
+      -webkit-transition: background 0.3s ease-in-out;
+      transition: background 0.3s ease-in-out; }
+      section#topBar div.searching button[type="submit"]:hover {
+        background-color: #9f2619; }
+
+/********************************************************** HEADER **********************************************************/
+header h2 {
+  margin: 40px auto 0px auto; }
+header p {
+  color: #000000;
+  margin: 10px auto 35px auto; }
+header ul#social {
+  padding: 0px;
+  margin: 45px auto; }
+  header ul#social li {
+    display: inline; }
+    header ul#social li a {
+      color: #333333;
+      -webkit-transition: color 0.5s ease-out;
+      transition: color 0.5s ease-out; }
+      header ul#social li a:hover {
+        color: #ee802f; }
+
+/********************************************************** NAV **********************************************************/
+nav div.row {
+  background: -webkit-linear-gradient(top, #333333, #2b2b2b);
+  background: linear-gradient(to bottom, #333333, #2b2b2b);
+  margin: 0px auto 25px auto;
+  border-radius: 5px;
+  max-width: 1140px; }
+nav ul#navigation, nav ul#navigationXS {
+  text-align: center; }
+nav ul#navigation {
+  padding: 15px 60px;
+  margin: 0px auto; }
+  nav ul#navigation li {
+    display: inline;
+    margin-right: 25px; }
+    nav ul#navigation li a {
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 12px;
+      font-family: "GeorgiaRegular";
+      color: #fff;
+      font-weight: bold;
+      -webkit-transition: color 0.2s;
+      transition: color 0.2s; }
+      nav ul#navigation li a:hover {
+        color: #ba2e1f; }
+nav button#showMenu {
+  border: none;
+  outline: none;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "GeorgiaRegular";
+  color: #fff;
+  background-color: transparent;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out; }
+  nav button#showMenu:hover {
+    color: #b92d1f; }
+nav ul#navigationXS {
+  display: none;
+  padding: 0px;
+  margin: 10px auto; }
+  nav ul#navigationXS li {
+    list-style-type: none; }
+    nav ul#navigationXS li a {
+      display: block;
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 12px;
+      font-family: "GeorgiaRegular";
+      color: #fff;
+      font-weight: bold;
+      padding: 10px;
+      -webkit-transition: color 0.2s;
+      transition: color 0.2s; }
+      nav ul#navigationXS li a:hover {
+        color: #ba2e1f;
+        background-color: #e5d6bd; }
+  nav ul#navigationXS li#socialXS {
+    margin-top: 10px; }
+    nav ul#navigationXS li#socialXS a {
+      display: inline;
+      color: #000; }
+      nav ul#navigationXS li#socialXS a:hover {
+        color: #ba2e1f;
+        background-color: transparent; }
+
+/********************************************************** INTRO **********************************************************/
+section#intro img {
+  width: 100%;
+  height: auto;
+  max-height: 440px;
+  max-width: 400px;
+  margin-bottom: 30px; }
+section#intro h1 {
+  max-width: 600px;
+  margin: 110px auto 20px auto; }
+section#intro p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #666666;
+  max-width: 550px; }
+section#intro a {
+  font-size: 16px;
+  line-height: 16px;
+  color: #ba2e1f;
+  text-transform: uppercase;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+  section#intro a:hover, section#intro a:active, section#intro a:focus {
+    opacity: 0.7; }
+
+/********************************************************** CONTENT **********************************************************/
+section#content {
+  background-color: #f2f2f2; }
+  section#content h3 {
+    margin: 50px auto; }
+  section#content h5 {
+    margin: 0px auto; }
+  section#content img[alt="About Us"] {
+    border: 1px solid #dfdfdf;
+    padding: 4px;
+    width: 100%;
+    height: auto;
+    max-width: 290px;
+    max-height: 140px;
+    margin: 0 auto;
+    display: block; }
+  section#content img[alt="services"] {
+    margin-bottom: 30px; }
+  section#content p {
+    font-size: 13px;
+    line-height: 21px;
+    text-align: justify; }
+  section#content h5 + p {
+    margin: 8px auto 8px 0px;
+    max-width: 210px; }
+  section#content p.aboutUs {
+    max-width: 280px;
+    margin: 15px auto; }
+  section#content a {
+    font-size: 13px;
+    color: #b92d1f;
+    display: block;
+    text-align: right;
+    margin: 0px 0px 40px auto;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out; }
+    section#content a:hover {
+      opacity: 0.7; }
+  section#content a:nth-child(odd) {
+    margin: 40px 40px 40px auto; }
+  section#content a:hover, section#content a:active, section#content a:focus {
+    text-decoration: none; }
+
+/********************************************************** FOOTER **********************************************************/
+footer a {
+  color: #b92d1f;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+  footer a:hover {
+    opacity: 0.7; }
+footer h4 {
+  margin: 50px auto 30px auto;
+  padding-top: 25px;
+  border-top: 1px solid #666666;
+  text-align: center; }
+footer p {
+  line-height: 20px; }
+  footer p a {
+    color: #b92d1f; }
+footer ul {
+  padding: 0px; }
+  footer ul li {
+    line-height: 28px;
+    list-style-image: url("../images/listarrow.gif");
+    list-style-position: inside;
+    border-bottom: 1px solid #d4d4d4; }
+    footer ul li a {
+      color: #666666; }
+footer h5 {
+  color: #666666;
+  margin: 0 auto 10px auto; }
+footer p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666; }
+  footer p a:hover, footer p a:active, footer p a:focus {
+    text-decoration: none; }
+footer p + a {
+  text-align: right;
+  display: block;
+  color: #b82c1f; }
+footer div.postTitle {
+  margin-top: 10px; }
+footer form {
+  margin-bottom: 20px; }
+  footer form input[type="text"], footer form input[type="email"] {
+    font-size: 13px;
+    line-height: 21px;
+    color: #989898;
+    padding: 10px;
+    max-width: 270px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f2f2f2; }
+  footer form input[type="email"] {
+    margin: 10px auto; }
+  footer form textarea {
+    padding: 10px;
+    max-width: 270px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    margin: 10px auto;
+    resize: none; }
+  footer form input[type="submit"] {
+    font-size: 13px;
+    line-height: 21px;
+    color: #ba2e1f;
+    padding: 11px 15px;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    -webkit-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out; }
+    footer form input[type="submit"]:hover {
+      background-color: #dddbdb; }

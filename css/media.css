@@ -1,0 +1,77 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #intro img {
+    margin: 0 auto;
+    display: block; } }
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  section#topBar form div.searching {
+    max-width: 120px; }
+    section#topBar form div.searching input[type="search"] {
+      width: 65px; }
+
+  section#intro div.container {
+    text-align: center; }
+    section#intro div.container h1 {
+      margin: 5px auto 0px auto; }
+    section#intro div.container p {
+      margin: 20px auto; }
+    section#intro div.container a {
+      margin: 0 auto; }
+
+  section#content h3 {
+    margin: 30px auto 20px auto; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  section#topBar form div.searching {
+    max-width: 140px; }
+    section#topBar form div.searching input[type="search"] {
+      width: 85px; }
+
+  section#intro h1 {
+    font-size: 35px;
+    line-height: 35px; }
+
+  section#content h3 {
+    text-align: center; }
+  section#content img[alt="About"] {
+    margin: 0 auto;
+    display: block;
+    text-align: center; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  section#topBar form div.searching {
+    max-width: 240px; }
+    section#topBar form div.searching input[type="search"] {
+      width: 195px; }
+
+  nav #navigation li:nth-child(8), nav #navigation li:nth-child(7), nav #navigation li:nth-child(6) {
+    display: none; }
+
+  section#intro h1 {
+    font-size: 65px;
+    line-height: 70px; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  section#intro h1 {
+    font-size: 86px;
+    line-height: 103px; }
+
+  nav #navigation li:nth-child(8) {
+    display: none; }
+
+  nav #navigation li:nth-child(7), nav #navigation li:nth-child(6) {
+    display: inline-block; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  nav #navigation li:nth-child(8) {
+    display: inline-block; }
+
+  nav #navigation li:nth-child(7), nav #navigation li:nth-child(6) {
+    display: inline-block; } }
